@@ -1,0 +1,491 @@
+.col-xl-7{
+  padding-left: 8%;
+  padding-top: 5%;
+  
+}
+
+.main-charts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  
+}
+
+.card-title{
+  color: #8C97A8;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card{
+  width: 274px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FFF;
+}
+
+.card-top{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.tasks-number{
+  color: #1E1E1E;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.charts-cards{
+  display: flex;
+  align-items: center;
+  
+}
+.chart-titles span{
+  color: #299702;
+  padding-left: 22px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.chart-titles{
+  color: #768396;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* .chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .charts-cards {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .chart-titles {
+    font-size: 16px;
+    margin-right: 10px; 
+    
+  }
+  .All-charts{
+    width: 67%;
+     padding-top: 6%;
+  } */
+/* 
+  /////////////////////// */
+
+
+
+  app-last-right{
+    /* width: 34%;
+    height: 1000px;
+    background-color: #ffffff;
+    padding-top: 5%; */
+   
+  }
+
+  @media screen and (min-width: 1108px) and (max-width: 1420px) {
+    .col-xl-7{
+      padding-left: 12%;
+      padding-top: 8%;
+      
+    }
+    
+    .main-charts{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 65%;
+      
+    }
+    
+    .card-title{
+      color: #8C97A8;
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .card{
+      width: 200px;
+      height: 210px;
+      flex-shrink: 0;
+      border-radius: 16px;
+      background: #FFF;
+    }
+    
+    .card-top{
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    
+    .tasks-number{
+      color: #1E1E1E;
+      font-family: DM Sans;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .charts-cards{
+      display: flex;
+      align-items: center;
+      
+    }
+    .chart-titles span{
+      color: #299702;
+      padding-left: 22px;
+      font-family: DM Sans;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .chart-titles{
+      color: #768396;
+      font-family: DM Sans;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  
+}
+
+@media screen and (min-width: 800px) and (max-width: 1108px) {
+  .col-xl-7{
+    
+    padding-left: 14%;
+    padding-top: 10%;
+    
+  }
+  
+  .main-charts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    
+  }
+  .circle svg{
+    width: 25px;
+  }
+  .charts{
+    width: 100px;
+  }
+  
+  .card-title{
+    color: #8C97A8;
+    padding-top: 7px;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .card{
+    width: 180px;
+    height: 210px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .card-top{
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  
+  
+  .tasks-number{
+    color: #1E1E1E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .charts-cards{
+    display: flex;
+    align-items: center;
+    
+  }
+  .chart-titles span{
+    color: #299702;
+    padding-left: 22px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .chart-titles{
+    color: #768396;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+} 
+ 
+
+@media screen and (min-width: 630px) and (max-width: 800px) {
+  .col-xl-7{
+    padding-left: 14%;
+    padding-top: 12%;
+    
+  }
+  
+  .main-charts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .circle svg{
+    width: 25px;
+  }
+  .charts{
+    width: 100px;
+  }
+  
+  .card-title{
+    color: #8C97A8;
+    padding-top: 7px;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .card{
+    width: 180px;
+    height: 210px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .card-top{
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  
+  
+  .tasks-number{
+    color: #1E1E1E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .charts-cards{
+    display: flex;
+    align-items: center;
+    
+  }
+  .chart-titles span{
+    color: #299702;
+    padding-left: 22px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .chart-titles{
+    color: #768396;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 630px) {
+  
+  .col-xl-7{
+    padding-left: 14%;
+    padding-top: 18%;
+  }
+  
+  .main-charts{
+    
+    width: 100%;
+    
+  }
+  .circle svg{
+    width: 25px;
+  }
+  .charts{
+    width: 100px;
+  }
+  
+  .card-title{
+    color: #8C97A8;
+    padding-top: 7px;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .card{
+    width: 180px;
+    height: 210px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .card-top{
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  
+  
+  .tasks-number{
+    color: #1E1E1E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .charts-cards{
+    display: flex;
+    align-items: center;
+    
+  }
+  .chart-titles span{
+    color: #299702;
+    padding-left: 22px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .chart-titles{
+    color: #768396;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 302px) and (max-width: 400px) {
+  .containers{
+    
+    
+  }
+  .col-xl-7{
+    padding-left: 14%;
+    padding-top: 30%;
+  }
+  
+  .main-charts{
+    
+    width: 100%;
+    
+  }
+  .circle svg{
+    width: 25px;
+  }
+  .charts{
+    width: 100px;
+  }
+  
+  .card-title{
+    color: #8C97A8;
+    padding-top: 7px;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .card{
+    width: 180px;
+    height: 210px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .card-top{
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  
+  
+  .tasks-number{
+    color: #1E1E1E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .charts-cards{
+    display: flex;
+    align-items: center;
+    
+  }
+  .chart-titles span{
+    color: #299702;
+    padding-left: 22px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .chart-titles{
+    color: #768396;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

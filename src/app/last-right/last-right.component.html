@@ -1,0 +1,92 @@
+<div class="main px-2">
+    <div >
+      <div class="d-flex justify-content-between align-items-center" >
+    
+        <h4 >Today's Scheudle</h4 >
+        <div class="rounded rounded-pill d-flex justify-content-between align-items-center px-3">
+          <i class="fa-solid fa-house" style="color: #C8CCD7;"></i>
+          <i class="fa-solid fa-calendar-days fa-sm" style="color: #768396;"></i>
+        </div>
+      </div>
+        <div class="invite d-flex justify-content-between px-3">
+          <p >30 minute call with Client</p>
+          <span >+Invite</span>
+        </div>
+        <h4  class="px-2">Project Discovery Call</h4>
+        <div>
+          <div class="card px-3 py-3 d-flex text-aligen" style="background:#5051F9; box-shadow: 0px 4px 8px rgba(54, 54, 194, 0.4);">
+            <div class="d-flex justify-content-between">
+              <div class="liked-by d-flex ">
+                <span><img [src]="Image1"></span>
+                <span><img [src]="Image2"></span>
+                <span><img style="width: 34px;" [src]="Image3"></span>
+                <span class="text-center" style="background-color: #E9F1FC; color: #1EA7FF; font-weight: bold;">R</span>
+              </div>
+                  
+              <p style="color: white;">28:35</p>
+                  
+              <div class="d-flex pt-1">
+                <i class="fa-solid fa-phone-volume " style="color: #edeff3;"></i>
+                <i class="fa-solid fa-ellipsis-vertical ps-4" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+    </div>
+      
+      <hr class="my-5">
+    <div class="py-3">
+      <h4>Messages</h4>
+      <div class="message-container">
+        <div class="message" *ngFor="let message of Content; let i = index">
+          <div class="message-content">
+            <div class="avatar-container" [style.border-color]="getBorder(i)">
+              <div class="avatar-circle">
+                <img  [src]="message.img" alt="{{ message.name }}" class="avatar">
+              </div>
+            </div>
+            <div class="text-container">
+              <div class="name">{{ message.name }}</div>
+              <div class="message-text" style="color: #768396; font-size: 1rem;">{{ message.message }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      <div >
+        <h4>New task</h4>
+        <p style="color: #768396; font-size: 0.8rem;">Task Title</p>
+        <div class="create-task">
+          <input type="search" placeholder="Creating new...">
+          
+      </div>
+        <p> <b class="vector"><</b> 🎉 😍 😁 🔥 😘 😉 😎 👩 🙄 <b class="vector">></b> </p>
+        
+    </div>
+    <hr class="my-5">
+    <p >Add Collaborators</p>
+
+    <div class="d-flex justify-content-between align-items-center  Collaborators">
+      <div class=" rounded-pill border-rounded d-flex align-items-center " style=" background: #E8E8FF; height: 40px;">
+        <img class="mx-1" [src]="Image5" alt="" style="width: 30px; height: 30px;  border-radius: 50%;">
+        <b class="mx-1" style="color: #5051F9;">yassin</b>
+        <span class="mx-1"><i class="fa-solid fa-xmark fa-sm"></i></span>
+      </div>
+      <div class="rounded-pill border-rounded d-flex align-items-center " style=" background: #E5F5FF; height: 40px;">
+        <img class="mx-1" [src]="Image4" alt="" style="width: 30px; height: 30px; border-radius: 50%;">
+        <b class="mx-1" style="color: #1EA7FF;">Noah</b>
+        <span class="mx-1"><i class="fa-solid fa-xmark fa-sm"></i></span>
+      </div>
+
+      <div class="d-flex justify-content-center" style="border-radius: 50%; background: #E8EDF1; width: 30px; height: 30px;">
+        <span>+</span>
+      </div>
+      <div class="d-flex justify-content-center" style="font-weight: bold; font-size: 16px; border-radius: 50%; background: #5051F9; color: white; width: 30px; height: 30px;">
+        <span>></span>
+      </div>
+
+    </div>
+
+    
+</div>
+</div>

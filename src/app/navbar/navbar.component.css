@@ -1,0 +1,87 @@
+nav {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+nav .containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    
+    width: 100%; /* Adjust width as needed */
+}
+
+nav .search-bar {
+    background-color: #F3F7FA;
+    padding: 8px 26px;
+    width: 20vw;
+    border-radius: 6px;
+    display: flex;
+    gap: 1rem;
+    color: gray;
+}
+
+nav .search-bar input[type="search"] {
+    color: #94A2BC;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+nav .profile-area {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    right: 80px;
+    position: relative; /* Added for positioning badge */
+}
+
+
+nav .notification {
+    position: relative;
+    font-size: 18px;
+}
+
+nav .notification-icon {
+    position: relative;
+    margin-right: -1rem;
+}
+
+nav .notification-badge {
+    position: absolute;
+    font-size: 10px;
+    top: -2px;
+    right: -2px;
+    background-color: #5250F9;;
+    color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .profile-area .profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav .profile-area .profilePhoto {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav .profile-area button {
+    display: none;
+}

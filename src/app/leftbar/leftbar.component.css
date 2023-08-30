@@ -1,0 +1,40 @@
+.side-nav-content {
+
+    color: #5F6388;
+    width: 100%; /* Use a percentage width for responsiveness */
+    margin: 10px;
+    /* Add padding for space around the icons */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list-item {
+    display: flex; /* Use flexbox for aligning items */
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px; /* Add some space between items */
+    border-radius: 14px;
+    transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+.nav-list-item:hover {
+    color: #FFFFFF;
+    background-color: #5051F9;
+}
+
+.nav-list-item i {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px; /* Adjust margin for space around icons */
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+

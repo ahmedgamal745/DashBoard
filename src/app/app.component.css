@@ -1,0 +1,47 @@
+/* Default styles for app-navbar */
+app-navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    left: 64px;
+    background: #ffffff; ;
+    
+    
+}
+
+/* Default styles for app-leftbar */
+app-leftbar {
+    padding-top: 220px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: absolute;
+    left: 0rem;
+    height: 1100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #FBFAFF;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: width 250ms ease-in;
+    z-index: 2;
+}
+
+/* Default styles for .border */
+.border {
+    border: 1px solid black;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    app-navbar {
+        left: 0; /* Example: Change the position of the navbar */
+        width: 100%; /* Example: Make the navbar full width */
+    }
+
+    app-leftbar {
+        width: 0; /* Example: Hide the left bar */
+        overflow-x: hidden;
+    }
+
+    /* Adjust any other styles as needed */
+}

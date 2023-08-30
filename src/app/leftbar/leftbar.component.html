@@ -1,0 +1,7 @@
+<div class="side-nav-content  " style="padding-top: 20%;">
+    <ul class="nav-list " >
+                <li class="nav-list-item border-white" *ngFor="let item of list" (click)="navigateToComponent(item.name)">
+                    <i class="{{item.icon}}"></i>
+                </li>
+    </ul>
+</div>
